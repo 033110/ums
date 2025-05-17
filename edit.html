@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="logo">
+                    <a href="#">UMS</a>
+                </div>
+                <nav class="d-flex gap-15">
+                    <a href="index.html">Home</a>
+                    <a href="create.html">Create</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="edit-contant">
+        <section class="edit-user">
+        <div class="container">
+            <h1>Edit User</h1>
+            <form class="edit-form">
+                <input name="userName" type="text" placeholder="user name .. " required />
+                <input name="email" type="email" class="user-email-edit" disabled/>
+                
+                
+                <input name="phone" type="text" class="user-phone-edit" disabled/>
+                
+                <button type="submit">Updata</button>
+            </form>
+        </div>
+    </section>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./edit.js"></script>
+    
+</body>
+</html>
